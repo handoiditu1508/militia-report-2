@@ -1,7 +1,7 @@
 import ConfigType from "./ConfigType";
 
 const defaultConfig: ConfigType = {
-  APP_NAME: "React Template",
+  APP_NAME: "Chia Ca DQCĐ",
   IS_AWESOME: import.meta.env.VITE_IS_AWESOME === "true" ? true : false,
   LAYOUT_PADDING: 1,
   EMPTY_FUNCTION: () => { },
