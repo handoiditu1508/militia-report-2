@@ -119,13 +119,13 @@ i18n
 
 ```bash
 git switch github-pages
-git pull origin master
 ```
 
-### Pull latest code changes from master
+### Update from master
 
 ```bash
-git pull origin master
+git fetch origin
+git merge master
 ```
 
 ### Build and deploy
