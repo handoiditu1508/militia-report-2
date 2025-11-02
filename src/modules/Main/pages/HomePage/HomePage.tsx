@@ -20,7 +20,6 @@ function HomePage() {
     .split(/\r?\n/)
     .filter(Boolean);
   const taskedUnits = taskedUnitsRaw
-    .trim()
     .split(/\r?\n/)
     .filter(Boolean);
   const notExistingTaskedUnits = taskedUnits.filter((unit) => !allUnits.includes(unit))
